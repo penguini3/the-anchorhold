@@ -10,17 +10,17 @@
     "footer footer footer";
 }
 
-.header {
+header {
   grid-area: header;
   border: 1px dotted red;
 }
 
-.footer {
+footer {
   grid-area: footer;
   border: 1px dotted red;
 }
 
-.sidebar {
+aside {
   grid-area: sidebar;
   border: 1px dotted red;
 }
@@ -29,3 +29,4 @@
   grid-area: side-deco;
   border: 1px dotted red;
 }
+
