@@ -7,10 +7,10 @@
     url("Bitcount-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /* grid layout */
+
 body {
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr 3fr 1fr;
@@ -24,22 +24,32 @@ body {
 
 header {
   grid-area: header;
+  background: #0d081b;
+  line-height: 1;
 }
 
 footer {
   grid-area: footer;
+  background: #0d081b;
+  padding: 0.5em;
 }
 
 main {
   grid-area: main;
+  background: #0d081b;
+  padding: 0.5em;
 }
 
 aside {
   grid-area: sidebar;
+  background: #0d081b;
+  padding: 0.5em;
 }
 
 .deco-sidebar {
   grid-area: deco-sidebar;
+  background: #0d081b;
+  padding: 0.5em;
 }
 
 /* styles */
