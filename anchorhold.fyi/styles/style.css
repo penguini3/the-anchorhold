@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 2em 33% 1fr;
   grid-template-rows: 4em 1fr 4em;
-  gap: 1em 0px;
+  gap: 1em 2px;
   grid-auto-flow: row;
   grid-template-areas:
     ". header header"
@@ -12,16 +12,20 @@
 
 .header {
   grid-area: header;
+  border: 1px dotted red;
 }
 
 .footer {
   grid-area: footer;
+  border: 1px dotted red;
 }
 
 .sidebar {
   grid-area: sidebar;
+  border: 1px dotted red;
 }
 
 .side-deco {
   grid-area: side-deco;
+  border: 1px dotted red;
 }
