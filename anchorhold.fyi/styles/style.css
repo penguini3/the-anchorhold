@@ -1,17 +1,33 @@
+/* basics */
+
+html {
+  background: #100917;
+  color: #14b4b4;
+}
+
 /* font init */
 
+/* Toshiba TxL2 8x16 */
 @font-face {
-  font-family: "Bitcount";
-  src:
-    url("Bitcount-Regular.woff2") format("woff2"),
-    url("Bitcount-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "Toshiba TxL2";
   font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
+}
+
+/* ibm-plex-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/ibm-plex-serif-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* grid layout */
 
 body {
+  max-height: 100%;
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr 3fr 1fr;
   grid-template-rows: 4em 1fr 3em;
@@ -24,37 +40,48 @@ body {
 
 header {
   grid-area: header;
-  background: #0d081b;
   line-height: 1;
+  background: #1f122b;
 }
 
 footer {
   grid-area: footer;
-  background: #0d081b;
   padding: 0.5em;
+  background: #1f122b;
 }
 
 main {
   grid-area: main;
-  background: #0d081b;
   padding: 0.5em;
+  background: #1f122b;
 }
 
 aside {
   grid-area: sidebar;
-  background: #0d081b;
   padding: 0.5em;
+  background: #1f122b;
 }
 
 .deco-sidebar {
   grid-area: deco-sidebar;
-  background: #0d081b;
   padding: 0.5em;
+  background: #1f122b;
 }
 
 /* styles */
 
 h1 {
-  font-family: "Bitcount";
+  font-family: "Toshiba TxL2";
   color: #e20340;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-family: "Toshiba TxL2";
+  font-size: 1.75rem;
+  color: #e20340;
+}
+
+p {
+  font-family: "IBM Plex Serif";
 }
