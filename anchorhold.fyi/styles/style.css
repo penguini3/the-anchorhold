@@ -3,79 +3,80 @@
 html {
   background: #100917;
   color: #14b4b4;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 /* font init */
 
+/* fonts are courtesy of VileR, at https://int10h.org/oldschool-pc-fonts/, and are licensed under CC BY-SA 4.0 */
+
 /* Toshiba TxL2 8x16 */
+@font-face {
+  font-family: "Toshiba TxL1";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/WebPlus_ToshibaTxL1_8x16.woff");
+}
+
 @font-face {
   font-family: "Toshiba TxL2";
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
-}
-
-/* ibm-plex-serif-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "IBM Plex Serif";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/ibm-plex-serif-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* grid layout */
 
 body {
-  max-height: 100%;
   display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr 3fr 1fr;
-  grid-template-rows: 4em 1fr 3em;
+  grid-template-columns: 2em 1fr 6fr;
+  grid-template-rows: 6em 1fr 3em;
   gap: 0.25em 0.25em;
+  justify-content: stretch;
+  align-content: center;
   grid-template-areas:
-    ". deco-sidebar header header ."
-    ". deco-sidebar sidebar main ."
-    ". deco-sidebar sidebar footer .";
+    " deco-sidebar header header "
+    " deco-sidebar sidebar main "
+    " deco-sidebar sidebar footer ";
 }
 
 header {
   grid-area: header;
-  padding-left: 1em;
-  line-height: 0.5;
   background: #1f122b;
   border: dashed 2px #e20340;
+  text-align: center;
 }
 
 footer {
   grid-area: footer;
   line-height: 0.5;
-  padding-left: 0.5em;
   background: #1f122b;
   border: dashed 2px #e20340;
 }
 
 main {
   grid-area: main;
-  padding: 1em;
   background: #1f122b;
   border: dashed 2px #e20340;
 }
 
 aside {
   grid-area: sidebar;
-  padding: 0.5em;
   background: #1f122b;
   border: dashed 2px #e20340;
 }
 
 .deco-sidebar {
   grid-area: deco-sidebar;
-  padding: 0.5em;
   background: #1f122b;
   border: dashed 2px #e20340;
   margin-right: -0.25em;
   border-right: 0;
+  writing-mode: sideways-lr;
   text-orientation: sideways;
+  line-height: 0;
+  padding-bottom: 0.5em;
 }
 
 /* styles */
@@ -83,15 +84,19 @@ aside {
 h1 {
   font-family: "Toshiba TxL2";
   color: #e20340;
-  font-size: 2.25rem;
+  font-size: 4em;
+  text-transform: uppercase;
+  transform: scaleX(0.83333333);
 }
 
 h2 {
   font-family: "Toshiba TxL2";
-  font-size: 1.75rem;
+  font-size: 2em;
   color: #e20340;
+  transform: scaleX(0.83333333);
 }
 
 p {
-  font-family: "IBM Plex Serif";
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.83333333);
 }
