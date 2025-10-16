@@ -16,6 +16,7 @@ html {
   font-family: "Toshiba TxL1";
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: url("./fonts/WebPlus_ToshibaTxL1_8x16.woff");
 }
 
@@ -23,6 +24,7 @@ html {
   font-family: "Toshiba TxL2";
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
 }
 
@@ -44,35 +46,39 @@ body {
 header {
   grid-area: header;
   background: #1f122b;
-  border: dashed 2px #e20340;
+  border: groove 4px #e20340;
   text-align: center;
+  border-left: 0;
 }
 
 footer {
   grid-area: footer;
   line-height: 0.5;
   background: #1f122b;
-  border: dashed 2px #e20340;
+  border: groove 4px #e20340;
 }
 
 main {
   grid-area: main;
   background: #1f122b;
-  border: dashed 2px #e20340;
+  border: groove 4px #e20340;
+  font-size: 1.25em;
 }
 
 aside {
   grid-area: sidebar;
   background: #1f122b;
-  border: dashed 2px #e20340;
+  border: groove 4px #e20340;
+  border-left: 0;
+  text-align: center;
+  line-height: 2em;
 }
 
 .deco-sidebar {
   grid-area: deco-sidebar;
   background: #1f122b;
-  border: dashed 2px #e20340;
+  border: groove 4px #e20340;
   margin-right: -0.25em;
-  border-right: 0;
   writing-mode: sideways-lr;
   text-orientation: sideways;
   line-height: 0;
@@ -99,4 +105,31 @@ h2 {
 p {
   font-family: "Toshiba TxL1";
   transform: scaleX(0.83333333);
+}
+
+li {
+  font-size: 1.25em;
+}
+
+a:link {
+  color: #e20340;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800125;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+.navlist {
+  list-style-type: none;
+  list-style-position: inside;
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.83333333);
+  padding-left: 0;
 }
