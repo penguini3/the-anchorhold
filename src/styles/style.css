@@ -1,0 +1,136 @@
+/* basics */
+
+html {
+  background: #100917;
+  color: #14b4b4;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* font init */
+
+/* fonts are courtesy of VileR, at https://int10h.org/oldschool-pc-fonts/, and are licensed under CC BY-SA 4.0 */
+
+/* Toshiba TxL2 8x16 */
+@font-face {
+  font-family: "Toshiba TxL1";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/WebPlus_ToshibaTxL1_8x16.woff");
+}
+
+@font-face {
+  font-family: "Toshiba TxL2";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
+}
+
+/* grid layout */
+
+body {
+  display: grid;
+  grid-template-columns: 2em 1fr 6fr;
+  grid-template-rows: 6em 1fr 3em;
+  gap: 0.25em 0.25em;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+    " deco-sidebar header header "
+    " deco-sidebar sidebar main "
+    " deco-sidebar sidebar footer ";
+}
+
+header {
+  grid-area: header;
+  background: #1f122b;
+  border: groove 4px #e20340;
+  text-align: center;
+  border-left: 0;
+}
+
+footer {
+  grid-area: footer;
+  line-height: 0.5;
+  background: #1f122b;
+  border: groove 4px #e20340;
+}
+
+main {
+  grid-area: main;
+  background: #1f122b;
+  border: groove 4px #e20340;
+  font-size: 1.25em;
+}
+
+aside {
+  grid-area: sidebar;
+  background: #1f122b;
+  border: groove 4px #e20340;
+  border-left: 0;
+  text-align: center;
+  line-height: 2em;
+}
+
+.deco-sidebar {
+  grid-area: deco-sidebar;
+  background: #1f122b;
+  border: groove 4px #e20340;
+  margin-right: -0.25em;
+  writing-mode: sideways-lr;
+  text-orientation: sideways;
+  line-height: 0;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+/* styles */
+
+h1 {
+  font-family: "Toshiba TxL2";
+  color: #e20340;
+  font-size: 4em;
+  text-transform: uppercase;
+  transform: scaleX(0.83333333);
+}
+
+h2 {
+  font-family: "Toshiba TxL2";
+  font-size: 2em;
+  color: #e20340;
+  transform: scaleX(0.83333333);
+}
+
+p {
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.83333333);
+}
+
+li {
+  font-size: 1.25em;
+}
+
+a:link {
+  color: #e20340;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800125;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+.navlist {
+  list-style-type: none;
+  list-style-position: inside;
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.83333333);
+  padding-left: 0;
+}
