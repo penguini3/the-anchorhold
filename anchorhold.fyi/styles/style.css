@@ -115,7 +115,7 @@ p {
 }
 
 ul {
-  list-style-type: "*";
+  list-style-type: "* ";
   font-family: "Toshiba TxL1";
   transform: scaleX(0.8333333);
 }
