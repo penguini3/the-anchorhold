@@ -104,8 +104,8 @@ h2 {
 }
 
 h3 {
-  font-family: "Toshiba TxL2"
-  color: #e20340
+  font-family: "Toshiba TxL2";
+  color: #e20340;
   transform: scaleX(0.8333333);
 }
 
@@ -120,7 +120,7 @@ li {
 
 ul {
   list-style-type: "*";
-  font-family: "Toshiba TxL1"
+  font-family: "Toshiba TxL1";
   transform: scaleX(0.8333333);
 }
 
