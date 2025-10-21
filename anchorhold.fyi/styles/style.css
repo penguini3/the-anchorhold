@@ -63,6 +63,7 @@ main {
   background: #1f122b;
   border: groove 4px #e20340;
   font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 aside {
