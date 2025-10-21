@@ -1,6 +1,6 @@
 ---
 layout: pages.njk
-nesting: "./"
+nesting: "../"
 ---
 ## Writing
 
