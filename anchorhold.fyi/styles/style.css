@@ -1,7 +1,7 @@
 /* basics */
 
 html {
-  background: #100917;
+  background: #0e091d;
   color: #14b4b4;
   font-size: 16px;
   line-height: 16px;
@@ -45,7 +45,7 @@ body {
 
 header {
   grid-area: header;
-  background: #1f122b;
+  background: #1f1a2b;
   border: groove 4px #e20340;
   text-align: center;
   border-left: 0;
@@ -54,13 +54,13 @@ header {
 footer {
   grid-area: footer;
   line-height: 0.5;
-  background: #1f122b;
+  background: #1f1a2b;
   border: groove 4px #e20340;
 }
 
 main {
   grid-area: main;
-  background: #1f122b;
+  background: #1f1a2b;
   border: groove 4px #e20340;
   font-size: 1.25em;
   line-height: 1.25em;
@@ -68,7 +68,7 @@ main {
 
 aside {
   grid-area: sidebar;
-  background: #1f122b;
+  background: #1f1a2b;
   border: groove 4px #e20340;
   border-left: 0;
   text-align: center;
@@ -77,7 +77,7 @@ aside {
 
 .deco-sidebar {
   grid-area: deco-sidebar;
-  background: #1f122b;
+  background: #1f1a2b;
   border: groove 4px #e20340;
   margin-right: -0.25em;
   writing-mode: sideways-lr;

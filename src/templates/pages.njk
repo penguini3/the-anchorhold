@@ -1,49 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>the anchorhold</title>
-    <meta content="ramblings from an aspiring recluse" name="description" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="{{ nesting }}images/favicon.ico"
-      rel="icon"
-      type="image/x-icon"
-    />
-    <link href="{{ nesting }}styles/style.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <header>
-      <h1>the anchorhold</h1>
-    </header>
+<head>
+  <title>the anchorhold</title>
+  <meta content="ramblings from an aspiring recluse" name="description" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="{{ nesting }}images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="{{ nesting }}styles/style.css" rel="stylesheet" />
+</head>
 
-    <footer>
-      <p>hello!</p>
-    </footer>
+<body>
+  <header>
+    <h1>the anchorhold</h1>
+  </header>
 
-    <aside>
-      <nav>
-        <h2>Pages</h2>
-        <ul class="navlist">
-          <li><a href="{{ nesting }}index.html">Home</a></li>
-          <li><a href="{{ nesting }}pages/writing.html">Writing</a></li>
-          <li><a href="{{ nesting }}pages/projects.html">Projects</a></li>
-          <li><a href="{{ nesting }}pages/faves.html">Faves</a></li>
-          <li><a href="{{ nesting }}pages/about.html">About</a></li>
-          <li><a href="{{ nesting }}pages/social.html">Social</a></li>
-        </ul>
-      </nav>
-    </aside>
+  <footer>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""
+        style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""
+        style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt=""
+        style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+  </footer>
 
-    <main>
-      <section>{{ content | safe}}</section>
-    </main>
+  <aside>
+    <nav>
+      <h2>Pages</h2>
+      <ul class="navlist">
+        <li><a href="{{ nesting }}index.html">Home</a></li>
+        <li><a href="{{ nesting }}pages/writing.html">Writing</a></li>
+        <li><a href="{{ nesting }}pages/projects.html">Projects</a></li>
+        <li><a href="{{ nesting }}pages/faves.html">Faves</a></li>
+        <li><a href="{{ nesting }}pages/about.html">About</a></li>
+        <li><a href="{{ nesting }}pages/social.html">Social</a></li>
+      </ul>
+    </nav>
+  </aside>
 
-    <div class="deco-sidebar">
-      <p>
-        under construction, falling rocks
-      </p>
-    </div>
-  </body>
+  <main>
+    <section>{{ content | safe}}</section>
+  </main>
+
+  <div class="deco-sidebar">
+    <p>
+      {{ sidebar }}
+    </p>
+  </div>
+</body>
+
 </html>
