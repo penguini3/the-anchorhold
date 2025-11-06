@@ -1,6 +1,6 @@
 ---
 layout: pages.njk
-nesting: ".../"
+nesting: "../../"
 sidebar: "MECHADEATH"
 ---
 As living animals, we have a concrete view of how our future violent deaths could look: blood oozing out of a prone body, organs only held in by shaking hands, muscles seizing in pain. A machine, a computer, lacks the self-actualization required to imagine something as abstract as its own death—in fact, most humans would argue that according to damn near every definition of life, a machine is not alive, and as such cannot die. What does a body with no blood shed? What does a form with no organs lose? How does a brain with no muscles seize? Artists have tried to conceptualize the death of a machine within the human understanding of violence. They depict cut and sparking wires as torn out nerves, loose cables as dead muscles. They depict processing chips as organs, pipes full of oil or coolant as veins, a shattered case as a corpse. In reality, most dead machines are far less dramatic. They look like the Windows operating system’s infamous blue screen, the XBOX 360’s red ring of death, or, more often than not, a simple refusal to turn on. Maybe, to a computer, that blue screen is their splayed out corpse, leaking blood out of a wound. Maybe that red ring is like a severed head. Maybe not turning on is passing away of old age—peaceful, loved, and silent. Maybe death isn’t exclusive to living things.

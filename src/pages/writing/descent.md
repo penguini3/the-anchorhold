@@ -1,6 +1,6 @@
 ---
 layout: pages.njk
-nesting: ".../"
+nesting: "../../"
 sidebar: "Freaked Up"
 ---
 I wasn’t friends with Charlotte Marlowe, and that made it all the stranger when the other girl showed up on my doorstep with a folder full of papers, a flip over notebook, and a plastic sandwich bag full of teeth. 
