@@ -1,6 +1,6 @@
 ---
 layout: pages.njk
-nesting: "../"
+nesting: ".../"
 sidebar: "Cyberslop"
 ---
 Our city streets: something closer to the interior of an elderly person’s apartment. Someone with too many cats or a penchant for collecting clothes three sizes too big and chairs half a size too small for anyone over the age of eight. Closer to that, that made-up apartment, than any street more than three kilometers east, where the out-of-towners stayed in their weeklong rentals. Me: nineteen, a nihilist in every way but the ones that counted– foolish? Yes. Self absorbed? Definitely. Dead? soon, weeks/days/hours from now. Irrelevant for now. New Boston: not San Francisco. Not Japan. Not Russia. Not a country that wanted my head or heart, still pulsing and ready for a man in a suit dozens of times more expensive than my life to crush like some of the synthetic fruits that had begun to flood the market. 
