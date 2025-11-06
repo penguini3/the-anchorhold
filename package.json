@@ -14,5 +14,13 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penguini3/the-anchorhold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/penguini3/the-anchorhold/issues"
+  },
+  "homepage": "https://github.com/penguini3/the-anchorhold#readme"
 }
