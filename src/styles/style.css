@@ -51,7 +51,7 @@ header {
   border-left: 0;
 }
 
-© footer {
+footer {
   grid-area: footer;
   line-height: 0.5;
   background: #1f1a2b;
