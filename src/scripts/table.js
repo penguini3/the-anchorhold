@@ -12,10 +12,10 @@ for (let i in faveMedia) {
   let synopsisCell = document.createElement('td');
   let thoughtsCell = document.createElement('td');
 
-  imageCell = faveMedia[i].link;
-  titleCell = faveMedia[i].title;
-  synopsisCell = faveMedia[i].synopsis;
-  thoughtsCell = faveMedia[i].thoughts;
+  imageCell.innerHTML = faveMedia[i].link;
+  titleCell.innerHTML = faveMedia[i].title;
+  synopsisCell.innerHTML = faveMedia[i].synopsis;
+  thoughtsCell.innerHTML = faveMedia[i].thoughts;
 
   row1.appendChild(imageCell);
   row1.appendChild(titleCell);
