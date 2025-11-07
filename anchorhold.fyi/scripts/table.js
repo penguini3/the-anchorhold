@@ -2,6 +2,7 @@ const faveMedia = fetch('../scripts/faves.json')
 for (let i in faveMedia) {
   x += faveMedia[i];
   let table = document.createElement('table');
+  let tbody = document.createElement('tbody');
 
   let row1 = document.createElement('tr');
   let row2 = document.createElement('tr');
@@ -21,9 +22,11 @@ for (let i in faveMedia) {
   row1.appendChild(titleCell);
   row2.appendChild(synopsisCell);
   row3.appendChild(thoughtsCell);
-  table.appendChild(row1);
-  table.appendChild(row2);
-  table.appendChild(row3);
+  tbody.appendChild(row1);
+  tbody.appendChild(row2);
+  tbody.appendChild(row3);
+
+  table.appendChild(tbody);
 
   document.getElementById('section').appendChild(table);
 } 
