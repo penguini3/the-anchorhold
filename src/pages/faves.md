@@ -5,3 +5,4 @@ draft: true
 ---
 
 ## Faves
+<script src="../scripts/table.js"></script>
