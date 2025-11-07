@@ -1,4 +1,4 @@
-const faveMedia = fetch('./faves.json')
+const faveMedia = fetch('../scripts/faves.json')
 for (let i in faveMedia) {
   x += faveMedia[i];
   let table = document.createElement('table');
