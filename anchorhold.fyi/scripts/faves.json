@@ -1,0 +1,41 @@
+{
+  "media":[
+  {
+    "title":"example",
+    "link":"example.com",
+    "synopsis":"example does example",
+    "thoughts":"I think example"
+  },
+
+  {
+    "title":"example",
+    "link":"example.com",
+    "synopsis":"example does example",
+    "thoughts":"I think example"
+  },
+
+  {
+    "title":"example",
+    "link":"example.com",
+    "synopsis":"example does example",
+    "thoughts":"I think example"
+  },
+
+  {
+    "title":"example",
+    "link":"example.com",
+    "synopsis":"example does example",
+    "thoughts":"I think example"
+  }
+  ],
+
+  "tools":[
+
+
+  ],
+
+  "writers": [
+
+
+  ]
+}

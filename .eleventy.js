@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/scripts")
   return {
     dir: {
       input: "src",
