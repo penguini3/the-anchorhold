@@ -1,4 +1,5 @@
-const faveMedia = JSON.parse(require('./faves.json'))
+const faveMedia = require('./faves.json')
+faveMedia = JSON.parse(faveMedia)
 for (let i in faveMedia) {
   x += faveMedia[i];
   let table = document.createElement('table');
