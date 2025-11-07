@@ -25,5 +25,5 @@ for (let i in faveMedia) {
   table.appendChild(row2);
   table.appendChild(row3);
 
-  document.getElementById('body').appendChild(table);
+  document.getElementById('section').appendChild(table);
 } 
