@@ -5,7 +5,7 @@ nesting: "../"
 
 ## Writing
 
-I'm an English major. I write. Poorly. Here are some of the things I wrote!
+I'm an English minor. I write. Poorly. Here are some of the things I wrote!
 
 ### Fiction, Both Fan- and Otherwise
 
