@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 npm run build
 git add .
