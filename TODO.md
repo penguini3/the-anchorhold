@@ -2,7 +2,7 @@
 
 - [ ] Finish pages in wip
 - [ ] Uses - Go into hardware, software, etc.
-- [ ] Absolute paths for 404 page
+- [x] Absolute paths for 404 page
 - [ ] Credits for site assets
 - [ ] Quotes section
 - [ ] Changelog
@@ -14,3 +14,4 @@
 - [ ] Passion Manifesto
 - [ ] Blogging and Reviews
 - [ ] BBS
+- [ ] **Reviews**
