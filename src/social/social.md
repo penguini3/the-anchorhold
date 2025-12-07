@@ -1,13 +1,14 @@
 ---
 layout: pages.njk
 nesting: "../"
-drafts: true
+sidebar: "where to find me"
 ---
 
 ## Social
 
 ### Contact Me
-- **Email** - dev@penguini3.anonaddy.me
+- **Email** - <a href="mailto:dev@penguini3.anonaddy.me">dev@penguini3.anonaddy.me</a>
 
 ### Guestbook
-<iframe src="https://anchorhold.atabook.org/" width:"100%" height:"500" style="border:2px solid #20340"></iframe>
+
+<iframe src="https://anchorhold.atabook.org/" width:"100%" height:"500" style="border:2px solid #e20340"></iframe>
