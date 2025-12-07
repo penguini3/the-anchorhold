@@ -23,6 +23,6 @@ I'm an English minor. I write. Poorly. Here are some of the things I wrote!
 These are a mix of stuff I wrote for school and personal essays/my thoughts on what-have-yous.
 
 - [Passive Rewilding in the Chernobyl Exclusion Zone](./CEZ)
-    - One of the better things I've ever written, and one of the more heavily researched essays. I've always been partial to ecofiction and the CEZ, and working on this essay really hammered home my own distaste for humanity. Fuck those guys. **Editors Note: This link will eventually lead to a PDF. For now... sorry.**
+    - One of the better things I've ever written, and one of the more heavily researched essays. I've always been partial to ecofiction and the CEZ, and working on this essay really hammered home my own distaste for humanity. Fuck those guys.
 - [Machine Gore](./mechdeath)
-    - I got anxious and didn't make this one as horny as it deserves. Will fix that, eventually. 
+    - I got anxious and didn't make this one as weird as it deserves. Will fix that, eventually. 
