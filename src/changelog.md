@@ -12,5 +12,5 @@ sidebar: "music note emoji i'm going through changes now music note emoji"
     - Fix writing links and extra pages
     - Finish project page
     - Clarify license
-    - Added more readable font for writing/posts
-    - Reorganized! again
+    - Add more readable font for writing/posts
+    - Add guestbook!!
