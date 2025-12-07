@@ -11,4 +11,4 @@ sidebar: "where to find me"
 
 ### Guestbook
 
-<iframe src="https://anchorhold.atabook.org/" width="100%" height="700" style="border:2px solid #e20340";></iframe>
+<iframe src="https://anchorhold.atabook.org/" width="66%" height="500" style="border:2px solid #e20340";></iframe>
