@@ -1,7 +1,7 @@
 ---
 layout: pages.njk
 nesting: "./"
-sidebar: "music note emoji im going through changes now music note emoji"
+sidebar: "music note emoji i'm going through changes now music note emoji"
 ---
 
 - 11/20/25
@@ -10,6 +10,6 @@ sidebar: "music note emoji im going through changes now music note emoji"
     - Reorganized! 
 - 12/07/25
     - Fix writing links and extra pages
-    - Finish product page
+    - Finish project page
     - Clarify license
     - Added more readable font for writing/posts 
