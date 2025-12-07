@@ -61,7 +61,7 @@ body {
 
 header {
   grid-area: header;
-  background: #1f1a2b;
+  background: #1f1a2d;
   border: groove 2px #e20340;
   text-align: center;
   border-left: 0;
@@ -70,13 +70,13 @@ header {
 footer {
   grid-area: footer;
   line-height: 0.5;
-  background: #1f1a2b;
+  background: #1f1a2d;
   border: groove 2px #e20340;
 }
 
 main {
   grid-area: main;
-  background: #1f1a2b;
+  background: #1f1a2d;
   border: groove 2px #e20340;
   font-size: 1.25em;
   line-height: 1.25em;
@@ -85,7 +85,7 @@ main {
 
 aside {
   grid-area: sidebar;
-  background: #1f1a2b;
+  background: #1f1a2d;
   border: groove 2px #e20340;
   border-left: 0;
   text-align: center;
@@ -94,7 +94,7 @@ aside {
 
 .deco-sidebar {
   grid-area: deco-sidebar;
-  background: #1f1a2b;
+  background: #1f1a2d;
   border: groove 2px #e20340;
   margin-right: -0.25em;
   writing-mode: sideways-lr;
