@@ -110,6 +110,9 @@ hr {
   border-top: groove 2px #e20340
 }
 
+.iframe-container {
+  justify-content: center;
+}
 
 /* TEXT */
 
