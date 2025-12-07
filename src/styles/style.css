@@ -28,6 +28,22 @@ html {
   src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
 }
 
+@font-face {
+  font-family: "Drafting* Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/DraftingMono-Medium.woff2")
+}
+
+@font-face {
+  font-family: "Drafting* Mono";
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/DraftingMono-MediumItalic.woff2")
+}
+
 /* GRID LAYOUT */
 
 body {
@@ -107,13 +123,13 @@ h1 {
 h2 {
   font-family: "Toshiba TxL2";
   font-size: 1.5em;
-  color: #e20340;
+  color: #e92000;
   transform: scaleX(0.83333333);
 }
 
 h3 {
   font-family: "Toshiba TxL2";
-  color: #e20340;
+  color: #af18f5;
   transform: scaleX(0.8333333);
 }
 
@@ -122,7 +138,7 @@ p {
   transform: scaleX(0.83333333);
 }
 
-/* LINKS */ 
+/* LINKS */
 
 a:link {
   color: #e20340;
