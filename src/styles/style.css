@@ -138,7 +138,7 @@ p {
   transform: scaleX(0.83333333);
 }
 
-.writing {
+p.writing {
   font-family: "Drafting* Mono";
 }
 
