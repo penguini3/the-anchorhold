@@ -10,7 +10,7 @@ Howdy! My name is Jessamine, and I'm a full-time student and aspiring technical 
 
 As a writer, my main interests are in topics related to mental health, dehumanization, and institutional violence. A lot of my work is inspired by the weird fiction and cyberpunk genres, along with my own experiences with the world at large and the psychiatric industry. Some of my favorite kinds of fiction is stuff that plays around with form and medium, especially when it comes to incorporating some amount of effort on behalf of the reader.
 
-On the computer front, I'm a fan of retro computing and am working on teaching myself some basic computer science stuff!! I'm majoring in IT, and am hoping to do work related to that and my writing in the future. I'm currently learning CSS, HTML, and Python, with plans for learning Rust Sometime In The Future. I already known a bit of Java and the basics of Linux system administration (Arch, btw!)
+On the computer front, I'm a fan of retro computing and am working on teaching myself computer science stuff!! I'm majoring in IT, and am hoping to do work related to that and my writing in the future. I'm currently learning CSS, HTML, and Python, with plans for learning Rust Sometime In The Future. I already known a bit of Java and the basics of Linux system administration (Arch, btw!), but I'm far from an expert.
 
 If you have any feedback related to this website, I would love to hear it!!! See [Social](../social/social) if you want to reach out.
 

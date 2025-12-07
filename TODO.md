@@ -3,9 +3,9 @@
 - [ ] Finish pages in wip
 - [ ] Uses - Go into hardware, software, etc.
 - [x] Absolute paths for 404 page
-- [ ] Credits for site assets
+- [x] Credits for site assets
 - [ ] Quotes section
-- [ ] Changelog
+- [x] Changelog
 - [ ] Nekoweb icon
 
 ## Long-term Projects
