@@ -1,5 +1,5 @@
 ---
-layout: pages.njk
+layout: writing.njk
 nesting: "../../"
 sidebar: "Freaked Up"
 ---

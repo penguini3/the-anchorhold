@@ -12,4 +12,4 @@ sidebar: "music note emoji im going through changes now music note emoji"
     - Fix writing links and extra pages
     - Finish product page
     - Clarify license
-    - Edit styles
+    - Added more readable font for writing/posts 

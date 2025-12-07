@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>the anchorhold</title>
+  <meta content="ramblings from an aspiring recluse" name="description" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="{{ nesting }}images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="{{ nesting }}styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>the anchorhold</h1>
+  </header>
+
+  <footer>
+    <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  </footer>
+
+  <aside>
+    <nav>
+      <h2>Pages</h2>
+      <ul class="navlist">
+        <li><a href="{{ nesting }}index.html">Home</a></li>
+        <li><a href="{{ nesting }}writing/writing">Writing</a></li>
+        <li><a href="{{ nesting }}projects/projects">Projects</a></li>
+        <li><a href="{{ nesting }}about/faves">Faves</a></li>
+        <li><a href="{{ nesting }}social/social">Social</a></li>
+        <li><a href="{{ nesting }}about/about">About Me</a></li>
+        <li><a href="{{ nesting }}about/credits">Credits</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="writing">
+    {{ content | safe}}
+  </div>
+
+  <div class="deco-sidebar">
+    <p>
+      {{ sidebar }}
+    </p>
+  </div>
+</body>
+
+</html>
