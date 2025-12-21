@@ -1,7 +1,7 @@
 ---
 layout: pages.njk
 nesting: "../../"
-sidebar: "ABANDON ALL HOPE"
+sidebar: "retty good essay, in my opinion :)"
 ---
 
-<iframe src=/images/chernobylessay.pdf width="100%" height="1000" style="border:2px solid #e20340";></iframe>
+<iframe src=/files/chernobylessay.pdf width="100%" height="1000" style="border:2px solid #e20340";></iframe>

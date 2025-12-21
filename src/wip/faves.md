@@ -1,6 +1,5 @@
 ---
 layout: pages.njk
 nesting: "../"
-draft: true
 ---
 

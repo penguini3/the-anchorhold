@@ -7,7 +7,7 @@ sidebar: "where to find me"
 ## Social
 
 ### Contact Me
-- **Email** - <a href="mailto:dev@penguini3.anonaddy.me">dev@penguini3.anonaddy.me</a>
+- **Email** - <a href="mailto:penguini3@anchorhold.fyi">penguini3@anchorhold.fyi</a>
 
 ### Guestbook
 

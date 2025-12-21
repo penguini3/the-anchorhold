@@ -14,3 +14,6 @@ sidebar: "music note emoji i'm going through changes now music note emoji"
     - Clarify license
     - Add more readable font for writing/posts
     - Add guestbook!!
+- 12/21/25
+    - Custom email domain!!
+    
