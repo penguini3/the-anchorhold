@@ -19,5 +19,7 @@ sidebar: "music note emoji i'm going through changes now music note emoji"
 - 12/21/25
     - Custom email domain!!
 
-- 12/23/25
-    - Add uses page    
+- 12/28/25
+    - Add uses page
+    - Update projects
+    -

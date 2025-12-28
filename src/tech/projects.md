@@ -9,6 +9,7 @@ Some things that I'm currently working on! Anything that I make that's tech rela
 
 ### In Progress
 - **This Site!** ~ I'm ~~slowly~~ making this site! For a long time, I've really struggled with wanting to actually interact with people online. The pressure of a constant stream of messages and posts and pictures and incessant demand for more, more, more, more vapid, senseless stimulation is, despite the breadth of material available, really boring. I sort of want this to be a little place on the internet that can be mine, without all of the social and BRIGHT BRIGHT COLOR pressure of stuff like Twitter or Tumblr.
+- **Thinkpad R51** ~ I recently got an IBM Thinkpad R51, and I'm looking forward to getting her working again!! There isn't anything too wrong with her besides a bad drive and a dead CMOS battery, but part of the fun will be getting all of her software set up within the restrictions of her specs.
 
 ### Planned
 - **Switch to Gentoo** ~ My old laptop (A Lenovo G50-70) runs modern operating systems, but is pretty damn slow about it. My plan for this December is to spend some time fixing up the parts that aren't quite working (the hard drive crapped out, going to replace it with a SATA SSD) and compiling a Gentoo installation for her. I don't really know what I'm doing, but I managed to get a fully bootable (if not particularly useful) gentoo installation on my main laptop for a bit, so. It'll be fun!
