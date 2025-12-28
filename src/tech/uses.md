@@ -3,11 +3,11 @@ layout: pages.njk
 nesting: "../"
 sidebar: "My Unsick Mostly Nongaming Setup" 
 ---
-# Uses
+## Uses
 
 Here are some of the things I use!
 
-## Hardware
+### Hardware
 
 **Thinkpad X13 Gen 4 AMD**
 
@@ -33,7 +33,7 @@ My e-reader... nothing special about her, but I love having a reader I can keep 
 
 Lyudmila, my phone. I'm still weighing the pros and cons of switching her over to GrapheneOS vs the standard PixelOS, but... who knows!! Despite probably being the device I use the most, I'm the least pleased with my phone... I really should think of something fun to do with it.
 
-## Education
+### Education
 
 **Open Alex**
 
