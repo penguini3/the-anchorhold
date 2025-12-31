@@ -22,4 +22,6 @@ sidebar: "music note emoji i'm going through changes now music note emoji"
 - 12/28/25
     - Add uses page
     - Update projects
-    -
+
+- 12/31/25
+    - Updated layout slightly
