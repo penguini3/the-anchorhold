@@ -1,0 +1,196 @@
+/* basics */
+
+html {
+  background: #0e091d;
+  color: #14b4b4;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* FONTS */
+
+/* fonts are courtesy of VileR, at https://int10h.org/oldschool-pc-fonts/, and are licensed under CC BY-SA 4.0 */
+
+/* Toshiba TxL2 8x16 */
+@font-face {
+  font-family: "Toshiba TxL1";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/WebPlus_ToshibaTxL1_8x16.woff");
+}
+
+@font-face {
+  font-family: "Toshiba TxL2";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/WebPlus_ToshibaTxL2_8x16.woff");
+}
+
+@font-face {
+  font-family: "Drafting* Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/DraftingMono-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Drafting* Mono";
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/DraftingMono-MediumItalic.woff2");
+}
+
+/* GRID LAYOUT */
+
+body {
+  display: grid;
+  grid-template-columns: 2em 1fr 6fr;
+  grid-template-rows: 6em 1fr 3em auto;
+  gap: 0.25em 0.25em;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+    " deco-sidebar header header "
+    " deco-sidebar sidebar main "
+    " deco-sidebar sidebar footer "
+    " deco-sidebar sidebar license ";
+}
+
+main {
+  grid-area: main;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  font-family: "Toshiba TxL1";
+}
+
+header {
+  grid-area: header;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+  text-align: center;
+  border-left: 0;
+}
+
+footer {
+  grid-area: footer;
+  line-height: 0.5;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+}
+
+license {
+  grid-area: license;
+  line-height: 0.5;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+}
+
+aside {
+  grid-area: sidebar;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+  border-left: 0;
+  border-top: 0;
+  text-align: center;
+  line-height: 2em;
+  margin-top: -0.25em;
+}
+
+.deco-sidebar {
+  grid-area: deco-sidebar;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+  margin-right: -0.25em;
+  writing-mode: sideways-lr;
+  text-orientation: sideways;
+  line-height: 0;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+/* ELEMENT STYLES */
+
+hr {
+  border: 0;
+  border-bottom: groove 2px #e20340;
+}
+
+.iframe-container {
+  justify-items: center;
+}
+
+/* TEXT */
+
+h1 {
+  font-family: "Toshiba TxL2";
+  color: #e20340;
+  font-size: 4em;
+  text-transform: uppercase;
+  transform: scaleX(0.83333333);
+}
+
+h2 {
+  font-family: "Toshiba TxL2";
+  font-size: 1.5em;
+  color: #e92000;
+  transform: scaleX(0.83333333);
+}
+
+h3 {
+  font-family: "Toshiba TxL2";
+  color: #af18f5;
+  transform: scaleX(0.8333333);
+}
+
+p {
+  transform: scaleX(0.83333333);
+}
+
+strong {
+  color: #e20340;
+}
+
+.writing {
+  font-family: "Drafting* Mono";
+  transform: scaleX(1);
+}
+
+/* LINKS */
+
+a:link {
+  color: #e20340;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800125;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+/* LISTS */
+
+.navlist {
+  list-style-type: none;
+  list-style-position: inside;
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.83333333);
+  padding-left: 0;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: "* ";
+  font-family: "Toshiba TxL1";
+  transform: scaleX(0.8333333);
+}
