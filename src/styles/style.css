@@ -85,7 +85,7 @@ footer {
 }
 
 license {
-  grid-area: footer;
+  grid-area: license;
   line-height: 0.5;
   background: #1f1a2d;
   border: groove 2px #e20340;
