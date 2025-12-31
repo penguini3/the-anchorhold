@@ -49,14 +49,24 @@ html {
 body {
   display: grid;
   grid-template-columns: 2em 1fr 6fr;
-  grid-template-rows: 6em 1fr 3em;
+  grid-template-rows: 6em 1fr 3em auto;
   gap: 0.25em 0.25em;
   justify-content: stretch;
   align-content: center;
   grid-template-areas:
     " deco-sidebar header header "
     " deco-sidebar sidebar main "
-    " deco-sidebar sidebar footer ";
+    " deco-sidebar sidebar footer "
+    " deco-sidebar sidebar license ";
+}
+
+main {
+  grid-area: main;
+  background: #1f1a2d;
+  border: groove 2px #e20340;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  font-family: "Toshiba TxL1";
 }
 
 header {
@@ -74,13 +84,11 @@ footer {
   border: groove 2px #e20340;
 }
 
-main {
-  grid-area: main;
+license {
+  grid-area: footer;
+  line-height: 0.5;
   background: #1f1a2d;
   border: groove 2px #e20340;
-  font-size: 1.25em;
-  line-height: 1.25em;
-  font-family: "Toshiba TxL1";
 }
 
 aside {
@@ -88,8 +96,10 @@ aside {
   background: #1f1a2d;
   border: groove 2px #e20340;
   border-left: 0;
+  border-top: 0;
   text-align: center;
   line-height: 2em;
+  margin-top: -0.25em;
 }
 
 .deco-sidebar {
@@ -107,7 +117,8 @@ aside {
 /* ELEMENT STYLES */
 
 hr {
-  border-top: groove 2px #e20340;
+  border: 0;
+  border-bottom: groove 2px #e20340;
 }
 
 .iframe-container {
